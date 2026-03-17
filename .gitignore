@@ -1,0 +1,19 @@
+# 忽略所有环境和缓存文件
+__pycache__/
+*.py[cod]
+.env
+venv/
+env/
+
+# 绝对禁止上传的模型权重和大型数据文件
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.h5
+*.ckpt
+*.onnx
+
+# 忽略本地的历史记录数据（防止多人测试时覆盖）
+history.json
+data/
