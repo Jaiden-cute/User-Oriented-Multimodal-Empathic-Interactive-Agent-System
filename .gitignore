@@ -1,19 +1,24 @@
-# 忽略所有环境和缓存文件
+# 忽略 Python 缓存文件
 __pycache__/
 *.py[cod]
-.env
+*$py.class
+
+# 忽略虚拟环境
 venv/
 env/
+.env
 
-# 绝对禁止上传的模型权重和大型数据文件
+# 忽略深度学习模型权重和大数据集
 *.pt
 *.pth
 *.bin
+*.ckpt
 *.safetensors
 *.h5
-*.ckpt
 *.onnx
-
-# 忽略本地的历史记录数据（防止多人测试时覆盖）
-history.json
+dataset/
 data/
+
+# 忽略系统自动生成的文件
+.DS_Store
+Thumbs.db
