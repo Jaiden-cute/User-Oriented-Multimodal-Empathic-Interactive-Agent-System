@@ -1,0 +1,1 @@
+from .text_emotion_recognizer import get_text_emotion_api
