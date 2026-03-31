@@ -22,3 +22,12 @@ data/
 # 忽略系统自动生成的文件
 .DS_Store
 Thumbs.db
+
+# 本地环境与产物
+/IAMM_Model/.venv/
+/IAMM_Model/.venv/**
+/IAMM_Model/save/
+/IAMM_Model/vectors/
+
+.venv/
+**/.venv/
